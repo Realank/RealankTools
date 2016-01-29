@@ -10,8 +10,11 @@
 
 #import "Chinese2PinyinViewController.h"
 
+#import "SysFontTableViewController.h"
+
 NS_ENUM(NSInteger, TOOLS_ENTRY) {
     ChineseToPinyin = 0,
+    SysFont,
     EntryMax
 };
 
@@ -42,11 +45,17 @@ NS_ENUM(NSInteger, TOOLS_ENTRY) {
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
+    cell.detailTextLabel.text = @"";
     NSInteger row = indexPath.row;
     switch (row) {
         case ChineseToPinyin:
         {
             cell.textLabel.text = @"汉字转拼音";
+        }
+            break;
+        case SysFont:
+        {
+            cell.textLabel.text = @"系统字体大全";
         }
             break;
             
@@ -65,6 +74,15 @@ NS_ENUM(NSInteger, TOOLS_ENTRY) {
         {
             //汉字转拼音
             Chinese2PinyinViewController *vc = [[Chinese2PinyinViewController alloc]init];
+            vc.title = @"汉字转拼音";
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+        case SysFont:
+        {
+            //系统字体大全
+            SysFontTableViewController *vc = [[SysFontTableViewController alloc]init];
+            vc.title = @"系统字体大全";
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;

@@ -17,6 +17,8 @@
 		8C51D44D1C5B607800B8F3C6 /* RootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C51D44C1C5B607800B8F3C6 /* RootTableViewController.m */; };
 		8C51D4521C5B630E00B8F3C6 /* Chinese2PinyinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C51D4501C5B630E00B8F3C6 /* Chinese2PinyinViewController.m */; };
 		8C51D4531C5B630E00B8F3C6 /* Chinese2PinyinViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C51D4511C5B630E00B8F3C6 /* Chinese2PinyinViewController.xib */; };
+		8C51D4591C5B665300B8F3C6 /* SysFontTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C51D4571C5B665300B8F3C6 /* SysFontTableViewController.m */; };
+		8C51D45A1C5B665300B8F3C6 /* SysFontTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C51D4581C5B665300B8F3C6 /* SysFontTableViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,9 @@
 		8C51D44F1C5B630E00B8F3C6 /* Chinese2PinyinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Chinese2PinyinViewController.h; path = SubViewControllers/Chinese2Pinyin/Chinese2PinyinViewController.h; sourceTree = "<group>"; };
 		8C51D4501C5B630E00B8F3C6 /* Chinese2PinyinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Chinese2PinyinViewController.m; path = SubViewControllers/Chinese2Pinyin/Chinese2PinyinViewController.m; sourceTree = "<group>"; };
 		8C51D4511C5B630E00B8F3C6 /* Chinese2PinyinViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Chinese2PinyinViewController.xib; path = SubViewControllers/Chinese2Pinyin/Chinese2PinyinViewController.xib; sourceTree = "<group>"; };
+		8C51D4561C5B665300B8F3C6 /* SysFontTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SysFontTableViewController.h; path = SubViewControllers/SysFont/SysFontTableViewController.h; sourceTree = "<group>"; };
+		8C51D4571C5B665300B8F3C6 /* SysFontTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SysFontTableViewController.m; path = SubViewControllers/SysFont/SysFontTableViewController.m; sourceTree = "<group>"; };
+		8C51D4581C5B665300B8F3C6 /* SysFontTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SysFontTableViewController.xib; path = SubViewControllers/SysFont/SysFontTableViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +154,7 @@
 		8C51D44E1C5B62C600B8F3C6 /* SubViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				8C51D4551C5B662B00B8F3C6 /* SysFont */,
 				8C51D4541C5B631200B8F3C6 /* Chinese2Pinyin */,
 			);
 			name = SubViewControllers;
@@ -162,6 +168,16 @@
 				8C51D4511C5B630E00B8F3C6 /* Chinese2PinyinViewController.xib */,
 			);
 			name = Chinese2Pinyin;
+			sourceTree = "<group>";
+		};
+		8C51D4551C5B662B00B8F3C6 /* SysFont */ = {
+			isa = PBXGroup;
+			children = (
+				8C51D4561C5B665300B8F3C6 /* SysFontTableViewController.h */,
+				8C51D4571C5B665300B8F3C6 /* SysFontTableViewController.m */,
+				8C51D4581C5B665300B8F3C6 /* SysFontTableViewController.xib */,
+			);
+			name = SysFont;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +287,7 @@
 				8C51D4281C5B5FC100B8F3C6 /* LaunchScreen.storyboard in Resources */,
 				8C51D4251C5B5FC100B8F3C6 /* Assets.xcassets in Resources */,
 				8C51D4231C5B5FC100B8F3C6 /* Main.storyboard in Resources */,
+				8C51D45A1C5B665300B8F3C6 /* SysFontTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C51D4521C5B630E00B8F3C6 /* Chinese2PinyinViewController.m in Sources */,
+				8C51D4591C5B665300B8F3C6 /* SysFontTableViewController.m in Sources */,
 				8C51D44D1C5B607800B8F3C6 /* RootTableViewController.m in Sources */,
 				8C51D41D1C5B5FC100B8F3C6 /* AppDelegate.m in Sources */,
 				8C51D41A1C5B5FC100B8F3C6 /* main.m in Sources */,
