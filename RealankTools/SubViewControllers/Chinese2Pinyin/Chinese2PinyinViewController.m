@@ -19,6 +19,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    self.inputTF.text = @"你好世界 hello world";
+    [self convert:nil];
 }
 - (IBAction)convert:(id)sender {
     NSString* input = self.inputTF.text;

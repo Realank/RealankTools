@@ -58,6 +58,7 @@ NS_ENUM(NSInteger, TOOLS_ENTRY) {
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
     NSInteger row = indexPath.row;
     switch (row) {
         case ChineseToPinyin:
