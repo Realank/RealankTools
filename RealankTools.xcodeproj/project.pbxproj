@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C091F391C71CDED0057F71C /* TouchIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C091F371C71CDED0057F71C /* TouchIDViewController.m */; };
+		8C091F3A1C71CDED0057F71C /* TouchIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C091F381C71CDED0057F71C /* TouchIDViewController.xib */; };
+		8C091F3C1C71CE580057F71C /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C091F3B1C71CE580057F71C /* LocalAuthentication.framework */; };
+		8C091F3F1C71CE800057F71C /* TouchIDTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C091F3E1C71CE800057F71C /* TouchIDTool.m */; };
 		8C4E4DF01C717BF300A68576 /* WandoujiaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4E4DEE1C717BF300A68576 /* WandoujiaViewController.m */; };
 		8C4E4DF11C717BF300A68576 /* WandoujiaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C4E4DEF1C717BF300A68576 /* WandoujiaViewController.xib */; };
 		8C4E4DF51C717C4D00A68576 /* SecondWDJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4E4DF31C717C4D00A68576 /* SecondWDJViewController.m */; };
@@ -43,6 +47,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C091F361C71CDED0057F71C /* TouchIDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TouchIDViewController.h; path = SubViewControllers/TouchID/TouchIDViewController.h; sourceTree = "<group>"; };
+		8C091F371C71CDED0057F71C /* TouchIDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TouchIDViewController.m; path = SubViewControllers/TouchID/TouchIDViewController.m; sourceTree = "<group>"; };
+		8C091F381C71CDED0057F71C /* TouchIDViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TouchIDViewController.xib; path = SubViewControllers/TouchID/TouchIDViewController.xib; sourceTree = "<group>"; };
+		8C091F3B1C71CE580057F71C /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		8C091F3D1C71CE800057F71C /* TouchIDTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchIDTool.h; sourceTree = "<group>"; };
+		8C091F3E1C71CE800057F71C /* TouchIDTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchIDTool.m; sourceTree = "<group>"; };
 		8C4E4DED1C717BF300A68576 /* WandoujiaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WandoujiaViewController.h; path = SubViewControllers/Wandoujia/WandoujiaViewController.h; sourceTree = "<group>"; };
 		8C4E4DEE1C717BF300A68576 /* WandoujiaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WandoujiaViewController.m; path = SubViewControllers/Wandoujia/WandoujiaViewController.m; sourceTree = "<group>"; };
 		8C4E4DEF1C717BF300A68576 /* WandoujiaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WandoujiaViewController.xib; path = SubViewControllers/Wandoujia/WandoujiaViewController.xib; sourceTree = "<group>"; };
@@ -78,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C091F3C1C71CE580057F71C /* LocalAuthentication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +109,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C091F351C71CDCB0057F71C /* TouchID */ = {
+			isa = PBXGroup;
+			children = (
+				8C091F361C71CDED0057F71C /* TouchIDViewController.h */,
+				8C091F371C71CDED0057F71C /* TouchIDViewController.m */,
+				8C091F381C71CDED0057F71C /* TouchIDViewController.xib */,
+				8C091F3D1C71CE800057F71C /* TouchIDTool.h */,
+				8C091F3E1C71CE800057F71C /* TouchIDTool.m */,
+			);
+			name = TouchID;
+			sourceTree = "<group>";
+		};
 		8C4E4DEC1C717BCC00A68576 /* Wandoujia */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,6 +174,7 @@
 		8C51D4181C5B5FC100B8F3C6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8C091F3B1C71CE580057F71C /* LocalAuthentication.framework */,
 				8C51D4191C5B5FC100B8F3C6 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -180,6 +204,7 @@
 				8C51D4551C5B662B00B8F3C6 /* SysFont */,
 				8C51D4541C5B631200B8F3C6 /* Chinese2Pinyin */,
 				8C4E4DEC1C717BCC00A68576 /* Wandoujia */,
+				8C091F351C71CDCB0057F71C /* TouchID */,
 			);
 			name = SubViewControllers;
 			sourceTree = "<group>";
@@ -308,6 +333,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C51D4531C5B630E00B8F3C6 /* Chinese2PinyinViewController.xib in Resources */,
+				8C091F3A1C71CDED0057F71C /* TouchIDViewController.xib in Resources */,
 				8C4E4DF11C717BF300A68576 /* WandoujiaViewController.xib in Resources */,
 				8C51D4281C5B5FC100B8F3C6 /* LaunchScreen.storyboard in Resources */,
 				8C51D4251C5B5FC100B8F3C6 /* Assets.xcassets in Resources */,
@@ -338,7 +364,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C091F3F1C71CE800057F71C /* TouchIDTool.m in Sources */,
 				8C51D4521C5B630E00B8F3C6 /* Chinese2PinyinViewController.m in Sources */,
+				8C091F391C71CDED0057F71C /* TouchIDViewController.m in Sources */,
 				8C51D4591C5B665300B8F3C6 /* SysFontTableViewController.m in Sources */,
 				8C51D44D1C5B607800B8F3C6 /* RootTableViewController.m in Sources */,
 				8C4E4DF51C717C4D00A68576 /* SecondWDJViewController.m in Sources */,

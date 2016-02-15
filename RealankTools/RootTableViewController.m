@@ -14,10 +14,13 @@
 
 #import "WandoujiaViewController.h"
 
+#import "TouchIDViewController.h"
+
 NS_ENUM(NSInteger, TOOLS_ENTRY) {
     ChineseToPinyin = 0,
     SysFont,
     SeguePracLineWandoujia,
+    TouchID,
     EntryMax
 };
 
@@ -66,6 +69,11 @@ NS_ENUM(NSInteger, TOOLS_ENTRY) {
             cell.textLabel.text = @"豌豆荚一览转场";
         }
             break;
+        case TouchID:
+        {
+            cell.textLabel.text = @"Touch ID";
+        }
+            break;
             
         default:
             break;
@@ -98,6 +106,14 @@ NS_ENUM(NSInteger, TOOLS_ENTRY) {
         {
             //豌豆荚转场
             WandoujiaViewController *vc = [[WandoujiaViewController alloc]init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+        case TouchID:
+        {
+            //TouchID
+            TouchIDViewController *vc = [[TouchIDViewController alloc]init];
+            vc.title = @"Touch ID";
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;
