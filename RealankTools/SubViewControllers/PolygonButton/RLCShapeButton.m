@@ -23,6 +23,7 @@
         shapLayer.strokeColor = [UIColor redColor].CGColor;
         shapLayer.lineWidth = 5;
         shapLayer.fillColor = [UIColor clearColor].CGColor;
+        shapLayer.lineJoin = kCALineJoinRound;
 //        self.layer.mask = shapLayer;
         [self.layer addSublayer:shapLayer];
     }
