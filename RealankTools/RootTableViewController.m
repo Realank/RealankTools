@@ -15,12 +15,14 @@
 #import "WandoujiaViewController.h"
 
 #import "TouchIDViewController.h"
+#import "PolygonButtonViewController.h"
 
 NS_ENUM(NSInteger, TOOLS_ENTRY) {
     ChineseToPinyin = 0,
     SysFont,
     SeguePracLineWandoujia,
     TouchID,
+    PolygonBtn,
     EntryMax
 };
 
@@ -74,6 +76,11 @@ NS_ENUM(NSInteger, TOOLS_ENTRY) {
             cell.textLabel.text = @"Touch ID";
         }
             break;
+        case PolygonBtn:
+        {
+            cell.textLabel.text = @"多边形按键";
+        }
+            break;
             
         default:
             break;
@@ -114,6 +121,14 @@ NS_ENUM(NSInteger, TOOLS_ENTRY) {
             //TouchID
             TouchIDViewController *vc = [[TouchIDViewController alloc]init];
             vc.title = @"Touch ID";
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+        case PolygonBtn:
+        {
+            //多边形按键
+            PolygonButtonViewController *vc = [[PolygonButtonViewController alloc]init];
+            vc.title = @"多边形按键";
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;

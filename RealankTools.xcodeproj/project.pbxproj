@@ -27,6 +27,9 @@
 		8C51D4531C5B630E00B8F3C6 /* Chinese2PinyinViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C51D4511C5B630E00B8F3C6 /* Chinese2PinyinViewController.xib */; };
 		8C51D4591C5B665300B8F3C6 /* SysFontTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C51D4571C5B665300B8F3C6 /* SysFontTableViewController.m */; };
 		8C51D45A1C5B665300B8F3C6 /* SysFontTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C51D4581C5B665300B8F3C6 /* SysFontTableViewController.xib */; };
+		8CADAD351C7305EC00337728 /* PolygonButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CADAD331C7305EC00337728 /* PolygonButtonViewController.m */; };
+		8CADAD361C7305EC00337728 /* PolygonButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CADAD341C7305EC00337728 /* PolygonButtonViewController.xib */; };
+		8CADAD3C1C73061F00337728 /* RLCShapeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CADAD3B1C73061F00337728 /* RLCShapeButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +84,11 @@
 		8C51D4561C5B665300B8F3C6 /* SysFontTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SysFontTableViewController.h; path = SubViewControllers/SysFont/SysFontTableViewController.h; sourceTree = "<group>"; };
 		8C51D4571C5B665300B8F3C6 /* SysFontTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SysFontTableViewController.m; path = SubViewControllers/SysFont/SysFontTableViewController.m; sourceTree = "<group>"; };
 		8C51D4581C5B665300B8F3C6 /* SysFontTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SysFontTableViewController.xib; path = SubViewControllers/SysFont/SysFontTableViewController.xib; sourceTree = "<group>"; };
+		8CADAD321C7305EC00337728 /* PolygonButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PolygonButtonViewController.h; path = SubViewControllers/PolygonButton/PolygonButtonViewController.h; sourceTree = "<group>"; };
+		8CADAD331C7305EC00337728 /* PolygonButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PolygonButtonViewController.m; path = SubViewControllers/PolygonButton/PolygonButtonViewController.m; sourceTree = "<group>"; };
+		8CADAD341C7305EC00337728 /* PolygonButtonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PolygonButtonViewController.xib; path = SubViewControllers/PolygonButton/PolygonButtonViewController.xib; sourceTree = "<group>"; };
+		8CADAD3A1C73061F00337728 /* RLCShapeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RLCShapeButton.h; path = SubViewControllers/PolygonButton/RLCShapeButton.h; sourceTree = "<group>"; };
+		8CADAD3B1C73061F00337728 /* RLCShapeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RLCShapeButton.m; path = SubViewControllers/PolygonButton/RLCShapeButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +213,7 @@
 				8C51D4541C5B631200B8F3C6 /* Chinese2Pinyin */,
 				8C4E4DEC1C717BCC00A68576 /* Wandoujia */,
 				8C091F351C71CDCB0057F71C /* TouchID */,
+				8CADAD311C7305BB00337728 /* PolygonButton */,
 			);
 			name = SubViewControllers;
 			sourceTree = "<group>";
@@ -227,6 +236,18 @@
 				8C51D4581C5B665300B8F3C6 /* SysFontTableViewController.xib */,
 			);
 			name = SysFont;
+			sourceTree = "<group>";
+		};
+		8CADAD311C7305BB00337728 /* PolygonButton */ = {
+			isa = PBXGroup;
+			children = (
+				8CADAD3A1C73061F00337728 /* RLCShapeButton.h */,
+				8CADAD3B1C73061F00337728 /* RLCShapeButton.m */,
+				8CADAD321C7305EC00337728 /* PolygonButtonViewController.h */,
+				8CADAD331C7305EC00337728 /* PolygonButtonViewController.m */,
+				8CADAD341C7305EC00337728 /* PolygonButtonViewController.xib */,
+			);
+			name = PolygonButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -340,6 +361,7 @@
 				8C51D4231C5B5FC100B8F3C6 /* Main.storyboard in Resources */,
 				8C4E4DF61C717C4D00A68576 /* SecondWDJViewController.xib in Resources */,
 				8C51D45A1C5B665300B8F3C6 /* SysFontTableViewController.xib in Resources */,
+				8CADAD361C7305EC00337728 /* PolygonButtonViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +389,8 @@
 				8C091F3F1C71CE800057F71C /* TouchIDTool.m in Sources */,
 				8C51D4521C5B630E00B8F3C6 /* Chinese2PinyinViewController.m in Sources */,
 				8C091F391C71CDED0057F71C /* TouchIDViewController.m in Sources */,
+				8CADAD351C7305EC00337728 /* PolygonButtonViewController.m in Sources */,
+				8CADAD3C1C73061F00337728 /* RLCShapeButton.m in Sources */,
 				8C51D4591C5B665300B8F3C6 /* SysFontTableViewController.m in Sources */,
 				8C51D44D1C5B607800B8F3C6 /* RootTableViewController.m in Sources */,
 				8C4E4DF51C717C4D00A68576 /* SecondWDJViewController.m in Sources */,
