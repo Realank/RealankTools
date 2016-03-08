@@ -30,6 +30,10 @@
 		8CADAD351C7305EC00337728 /* PolygonButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CADAD331C7305EC00337728 /* PolygonButtonViewController.m */; };
 		8CADAD361C7305EC00337728 /* PolygonButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CADAD341C7305EC00337728 /* PolygonButtonViewController.xib */; };
 		8CADAD3C1C73061F00337728 /* RLCShapeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CADAD3B1C73061F00337728 /* RLCShapeButton.m */; };
+		8CE976101C8E7E14000479DF /* NSString+Realank.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE9760B1C8E7E14000479DF /* NSString+Realank.m */; };
+		8CE976111C8E7E14000479DF /* QBTimeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE9760D1C8E7E14000479DF /* QBTimeTool.m */; };
+		8CE976121C8E7E14000479DF /* UIView+Realank.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE9760F1C8E7E14000479DF /* UIView+Realank.m */; };
+		8CE976151C8E7E9E000479DF /* NSDate+QB.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE976141C8E7E9E000479DF /* NSDate+QB.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +93,14 @@
 		8CADAD341C7305EC00337728 /* PolygonButtonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PolygonButtonViewController.xib; path = SubViewControllers/PolygonButton/PolygonButtonViewController.xib; sourceTree = "<group>"; };
 		8CADAD3A1C73061F00337728 /* RLCShapeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RLCShapeButton.h; path = SubViewControllers/PolygonButton/RLCShapeButton.h; sourceTree = "<group>"; };
 		8CADAD3B1C73061F00337728 /* RLCShapeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RLCShapeButton.m; path = SubViewControllers/PolygonButton/RLCShapeButton.m; sourceTree = "<group>"; };
+		8CE9760A1C8E7E14000479DF /* NSString+Realank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Realank.h"; sourceTree = "<group>"; };
+		8CE9760B1C8E7E14000479DF /* NSString+Realank.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Realank.m"; sourceTree = "<group>"; };
+		8CE9760C1C8E7E14000479DF /* QBTimeTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBTimeTool.h; sourceTree = "<group>"; };
+		8CE9760D1C8E7E14000479DF /* QBTimeTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBTimeTool.m; sourceTree = "<group>"; };
+		8CE9760E1C8E7E14000479DF /* UIView+Realank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Realank.h"; sourceTree = "<group>"; };
+		8CE9760F1C8E7E14000479DF /* UIView+Realank.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Realank.m"; sourceTree = "<group>"; };
+		8CE976131C8E7E9E000479DF /* NSDate+QB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+QB.h"; sourceTree = "<group>"; };
+		8CE976141C8E7E9E000479DF /* NSDate+QB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+QB.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +177,7 @@
 		8C51D4171C5B5FC100B8F3C6 /* RealankTools */ = {
 			isa = PBXGroup;
 			children = (
+				8CE976091C8E7E14000479DF /* Utils */,
 				8C51D41B1C5B5FC100B8F3C6 /* AppDelegate.h */,
 				8C51D41C1C5B5FC100B8F3C6 /* AppDelegate.m */,
 				8C51D44B1C5B607800B8F3C6 /* RootTableViewController.h */,
@@ -248,6 +261,21 @@
 				8CADAD341C7305EC00337728 /* PolygonButtonViewController.xib */,
 			);
 			name = PolygonButton;
+			sourceTree = "<group>";
+		};
+		8CE976091C8E7E14000479DF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8CE9760A1C8E7E14000479DF /* NSString+Realank.h */,
+				8CE9760B1C8E7E14000479DF /* NSString+Realank.m */,
+				8CE9760C1C8E7E14000479DF /* QBTimeTool.h */,
+				8CE9760D1C8E7E14000479DF /* QBTimeTool.m */,
+				8CE9760E1C8E7E14000479DF /* UIView+Realank.h */,
+				8CE9760F1C8E7E14000479DF /* UIView+Realank.m */,
+				8CE976131C8E7E9E000479DF /* NSDate+QB.h */,
+				8CE976141C8E7E9E000479DF /* NSDate+QB.m */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -390,8 +418,12 @@
 				8C51D4521C5B630E00B8F3C6 /* Chinese2PinyinViewController.m in Sources */,
 				8C091F391C71CDED0057F71C /* TouchIDViewController.m in Sources */,
 				8CADAD351C7305EC00337728 /* PolygonButtonViewController.m in Sources */,
+				8CE976151C8E7E9E000479DF /* NSDate+QB.m in Sources */,
 				8CADAD3C1C73061F00337728 /* RLCShapeButton.m in Sources */,
+				8CE976121C8E7E14000479DF /* UIView+Realank.m in Sources */,
 				8C51D4591C5B665300B8F3C6 /* SysFontTableViewController.m in Sources */,
+				8CE976101C8E7E14000479DF /* NSString+Realank.m in Sources */,
+				8CE976111C8E7E14000479DF /* QBTimeTool.m in Sources */,
 				8C51D44D1C5B607800B8F3C6 /* RootTableViewController.m in Sources */,
 				8C4E4DF51C717C4D00A68576 /* SecondWDJViewController.m in Sources */,
 				8C4E4DF01C717BF300A68576 /* WandoujiaViewController.m in Sources */,
