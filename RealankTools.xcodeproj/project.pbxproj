@@ -30,6 +30,7 @@
 		8CADAD351C7305EC00337728 /* PolygonButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CADAD331C7305EC00337728 /* PolygonButtonViewController.m */; };
 		8CADAD361C7305EC00337728 /* PolygonButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CADAD341C7305EC00337728 /* PolygonButtonViewController.xib */; };
 		8CADAD3C1C73061F00337728 /* RLCShapeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CADAD3B1C73061F00337728 /* RLCShapeButton.m */; };
+		8CD695331C8E7F9B009D016C /* UIImage+Realank.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD695321C8E7F9B009D016C /* UIImage+Realank.m */; };
 		8CE976101C8E7E14000479DF /* NSString+Realank.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE9760B1C8E7E14000479DF /* NSString+Realank.m */; };
 		8CE976111C8E7E14000479DF /* QBTimeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE9760D1C8E7E14000479DF /* QBTimeTool.m */; };
 		8CE976121C8E7E14000479DF /* UIView+Realank.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE9760F1C8E7E14000479DF /* UIView+Realank.m */; };
@@ -93,6 +94,8 @@
 		8CADAD341C7305EC00337728 /* PolygonButtonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PolygonButtonViewController.xib; path = SubViewControllers/PolygonButton/PolygonButtonViewController.xib; sourceTree = "<group>"; };
 		8CADAD3A1C73061F00337728 /* RLCShapeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RLCShapeButton.h; path = SubViewControllers/PolygonButton/RLCShapeButton.h; sourceTree = "<group>"; };
 		8CADAD3B1C73061F00337728 /* RLCShapeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RLCShapeButton.m; path = SubViewControllers/PolygonButton/RLCShapeButton.m; sourceTree = "<group>"; };
+		8CD695311C8E7F9B009D016C /* UIImage+Realank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Realank.h"; sourceTree = "<group>"; };
+		8CD695321C8E7F9B009D016C /* UIImage+Realank.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Realank.m"; sourceTree = "<group>"; };
 		8CE9760A1C8E7E14000479DF /* NSString+Realank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Realank.h"; sourceTree = "<group>"; };
 		8CE9760B1C8E7E14000479DF /* NSString+Realank.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Realank.m"; sourceTree = "<group>"; };
 		8CE9760C1C8E7E14000479DF /* QBTimeTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBTimeTool.h; sourceTree = "<group>"; };
@@ -274,6 +277,8 @@
 				8CE9760F1C8E7E14000479DF /* UIView+Realank.m */,
 				8CE976131C8E7E9E000479DF /* NSDate+QB.h */,
 				8CE976141C8E7E9E000479DF /* NSDate+QB.m */,
+				8CD695311C8E7F9B009D016C /* UIImage+Realank.h */,
+				8CD695321C8E7F9B009D016C /* UIImage+Realank.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -420,6 +425,7 @@
 				8CADAD351C7305EC00337728 /* PolygonButtonViewController.m in Sources */,
 				8CE976151C8E7E9E000479DF /* NSDate+QB.m in Sources */,
 				8CADAD3C1C73061F00337728 /* RLCShapeButton.m in Sources */,
+				8CD695331C8E7F9B009D016C /* UIImage+Realank.m in Sources */,
 				8CE976121C8E7E14000479DF /* UIView+Realank.m in Sources */,
 				8C51D4591C5B665300B8F3C6 /* SysFontTableViewController.m in Sources */,
 				8CE976101C8E7E14000479DF /* NSString+Realank.m in Sources */,
