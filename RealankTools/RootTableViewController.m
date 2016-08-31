@@ -17,6 +17,7 @@
 #import "TouchIDViewController.h"
 #import "PolygonButtonViewController.h"
 #import "FileOperationViewController.h"
+#import "BTConnectionViewController.h"
 
 NS_ENUM(NSInteger, TOOLS_ENTRY) {
     ChineseToPinyin = 0,
@@ -25,6 +26,7 @@ NS_ENUM(NSInteger, TOOLS_ENTRY) {
     TouchID,
     PolygonBtn,
     FileOperation,
+    BTConnection,
     EntryMax
 };
 
@@ -87,6 +89,10 @@ NS_ENUM(NSInteger, TOOLS_ENTRY) {
             cell.textLabel.text = @"内容持久化";
         }
             break;
+        case BTConnection:{
+            cell.textLabel.text = @"BTLE连接";
+        }
+            break;
         default:
             break;
     }
@@ -142,6 +148,12 @@ NS_ENUM(NSInteger, TOOLS_ENTRY) {
             //内容持久化
             FileOperationViewController* vc = [[FileOperationViewController alloc]init];
             vc.title = @"内容持久化";
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+        case BTConnection:{
+            BTConnectionViewController* vc = [[BTConnectionViewController alloc]init];
+            vc.title = @"蓝牙";
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;

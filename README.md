@@ -38,3 +38,6 @@ Touch ID使用代码
 
 ### 内容持久化
 文件操作、NSSecureCoding、SQLite、自定义的仿NSUserDefault类
+
+### BTLE连接
+CoreBluetooth 连接Demo
