@@ -30,6 +30,13 @@
 		8CADAD351C7305EC00337728 /* PolygonButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CADAD331C7305EC00337728 /* PolygonButtonViewController.m */; };
 		8CADAD361C7305EC00337728 /* PolygonButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CADAD341C7305EC00337728 /* PolygonButtonViewController.xib */; };
 		8CADAD3C1C73061F00337728 /* RLCShapeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CADAD3B1C73061F00337728 /* RLCShapeButton.m */; };
+		8CBC1FE81D769EA600EB727C /* RACCodingDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBC1FE31D769EA600EB727C /* RACCodingDemo.m */; };
+		8CBC1FE91D769EA600EB727C /* RACFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBC1FE51D769EA600EB727C /* RACFileManager.m */; };
+		8CBC1FEA1D769EA600EB727C /* RACSQLiteDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBC1FE71D769EA600EB727C /* RACSQLiteDemo.m */; };
+		8CBC1FED1D769EF400EB727C /* RLKUserDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBC1FEC1D769EF400EB727C /* RLKUserDefault.m */; };
+		8CBC1FF21D769F5D00EB727C /* FileOperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBC1FF01D769F5D00EB727C /* FileOperationViewController.m */; };
+		8CBC1FF31D769F5D00EB727C /* FileOperationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CBC1FF11D769F5D00EB727C /* FileOperationViewController.xib */; };
+		8CBC1FF51D76A00F00EB727C /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CBC1FF41D76A00F00EB727C /* libsqlite3.tbd */; };
 		8CD695331C8E7F9B009D016C /* UIImage+Realank.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD695321C8E7F9B009D016C /* UIImage+Realank.m */; };
 		8CE976101C8E7E14000479DF /* NSString+Realank.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE9760B1C8E7E14000479DF /* NSString+Realank.m */; };
 		8CE976111C8E7E14000479DF /* QBTimeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE9760D1C8E7E14000479DF /* QBTimeTool.m */; };
@@ -94,6 +101,18 @@
 		8CADAD341C7305EC00337728 /* PolygonButtonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PolygonButtonViewController.xib; path = SubViewControllers/PolygonButton/PolygonButtonViewController.xib; sourceTree = "<group>"; };
 		8CADAD3A1C73061F00337728 /* RLCShapeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RLCShapeButton.h; path = SubViewControllers/PolygonButton/RLCShapeButton.h; sourceTree = "<group>"; };
 		8CADAD3B1C73061F00337728 /* RLCShapeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RLCShapeButton.m; path = SubViewControllers/PolygonButton/RLCShapeButton.m; sourceTree = "<group>"; };
+		8CBC1FE21D769EA600EB727C /* RACCodingDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACCodingDemo.h; sourceTree = "<group>"; };
+		8CBC1FE31D769EA600EB727C /* RACCodingDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACCodingDemo.m; sourceTree = "<group>"; };
+		8CBC1FE41D769EA600EB727C /* RACFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACFileManager.h; sourceTree = "<group>"; };
+		8CBC1FE51D769EA600EB727C /* RACFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACFileManager.m; sourceTree = "<group>"; };
+		8CBC1FE61D769EA600EB727C /* RACSQLiteDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACSQLiteDemo.h; sourceTree = "<group>"; };
+		8CBC1FE71D769EA600EB727C /* RACSQLiteDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACSQLiteDemo.m; sourceTree = "<group>"; };
+		8CBC1FEB1D769EF400EB727C /* RLKUserDefault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLKUserDefault.h; sourceTree = "<group>"; };
+		8CBC1FEC1D769EF400EB727C /* RLKUserDefault.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLKUserDefault.m; sourceTree = "<group>"; };
+		8CBC1FEF1D769F5D00EB727C /* FileOperationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FileOperationViewController.h; path = SubViewControllers/FileOperation/FileOperationViewController.h; sourceTree = "<group>"; };
+		8CBC1FF01D769F5D00EB727C /* FileOperationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FileOperationViewController.m; path = SubViewControllers/FileOperation/FileOperationViewController.m; sourceTree = "<group>"; };
+		8CBC1FF11D769F5D00EB727C /* FileOperationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FileOperationViewController.xib; path = SubViewControllers/FileOperation/FileOperationViewController.xib; sourceTree = "<group>"; };
+		8CBC1FF41D76A00F00EB727C /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		8CD695311C8E7F9B009D016C /* UIImage+Realank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Realank.h"; sourceTree = "<group>"; };
 		8CD695321C8E7F9B009D016C /* UIImage+Realank.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Realank.m"; sourceTree = "<group>"; };
 		8CE9760A1C8E7E14000479DF /* NSString+Realank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Realank.h"; sourceTree = "<group>"; };
@@ -111,6 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CBC1FF51D76A00F00EB727C /* libsqlite3.tbd in Frameworks */,
 				8C091F3C1C71CE580057F71C /* LocalAuthentication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -198,6 +218,7 @@
 		8C51D4181C5B5FC100B8F3C6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8CBC1FF41D76A00F00EB727C /* libsqlite3.tbd */,
 				8C091F3B1C71CE580057F71C /* LocalAuthentication.framework */,
 				8C51D4191C5B5FC100B8F3C6 /* main.m */,
 			);
@@ -225,6 +246,7 @@
 		8C51D44E1C5B62C600B8F3C6 /* SubViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				8CBC1FEE1D769F1900EB727C /* FileOperation */,
 				8C51D4551C5B662B00B8F3C6 /* SysFont */,
 				8C51D4541C5B631200B8F3C6 /* Chinese2Pinyin */,
 				8C4E4DEC1C717BCC00A68576 /* Wandoujia */,
@@ -266,6 +288,31 @@
 			name = PolygonButton;
 			sourceTree = "<group>";
 		};
+		8CBC1FE11D769E7C00EB727C /* FileCache */ = {
+			isa = PBXGroup;
+			children = (
+				8CBC1FEB1D769EF400EB727C /* RLKUserDefault.h */,
+				8CBC1FEC1D769EF400EB727C /* RLKUserDefault.m */,
+				8CBC1FE21D769EA600EB727C /* RACCodingDemo.h */,
+				8CBC1FE31D769EA600EB727C /* RACCodingDemo.m */,
+				8CBC1FE41D769EA600EB727C /* RACFileManager.h */,
+				8CBC1FE51D769EA600EB727C /* RACFileManager.m */,
+				8CBC1FE61D769EA600EB727C /* RACSQLiteDemo.h */,
+				8CBC1FE71D769EA600EB727C /* RACSQLiteDemo.m */,
+			);
+			name = FileCache;
+			sourceTree = "<group>";
+		};
+		8CBC1FEE1D769F1900EB727C /* FileOperation */ = {
+			isa = PBXGroup;
+			children = (
+				8CBC1FEF1D769F5D00EB727C /* FileOperationViewController.h */,
+				8CBC1FF01D769F5D00EB727C /* FileOperationViewController.m */,
+				8CBC1FF11D769F5D00EB727C /* FileOperationViewController.xib */,
+			);
+			name = FileOperation;
+			sourceTree = "<group>";
+		};
 		8CE976091C8E7E14000479DF /* Utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -279,6 +326,7 @@
 				8CE976141C8E7E9E000479DF /* NSDate+QB.m */,
 				8CD695311C8E7F9B009D016C /* UIImage+Realank.h */,
 				8CD695321C8E7F9B009D016C /* UIImage+Realank.m */,
+				8CBC1FE11D769E7C00EB727C /* FileCache */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -394,6 +442,7 @@
 				8C51D4231C5B5FC100B8F3C6 /* Main.storyboard in Resources */,
 				8C4E4DF61C717C4D00A68576 /* SecondWDJViewController.xib in Resources */,
 				8C51D45A1C5B665300B8F3C6 /* SysFontTableViewController.xib in Resources */,
+				8CBC1FF31D769F5D00EB727C /* FileOperationViewController.xib in Resources */,
 				8CADAD361C7305EC00337728 /* PolygonButtonViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -423,13 +472,18 @@
 				8C51D4521C5B630E00B8F3C6 /* Chinese2PinyinViewController.m in Sources */,
 				8C091F391C71CDED0057F71C /* TouchIDViewController.m in Sources */,
 				8CADAD351C7305EC00337728 /* PolygonButtonViewController.m in Sources */,
+				8CBC1FED1D769EF400EB727C /* RLKUserDefault.m in Sources */,
 				8CE976151C8E7E9E000479DF /* NSDate+QB.m in Sources */,
 				8CADAD3C1C73061F00337728 /* RLCShapeButton.m in Sources */,
 				8CD695331C8E7F9B009D016C /* UIImage+Realank.m in Sources */,
 				8CE976121C8E7E14000479DF /* UIView+Realank.m in Sources */,
+				8CBC1FEA1D769EA600EB727C /* RACSQLiteDemo.m in Sources */,
+				8CBC1FE81D769EA600EB727C /* RACCodingDemo.m in Sources */,
 				8C51D4591C5B665300B8F3C6 /* SysFontTableViewController.m in Sources */,
 				8CE976101C8E7E14000479DF /* NSString+Realank.m in Sources */,
 				8CE976111C8E7E14000479DF /* QBTimeTool.m in Sources */,
+				8CBC1FF21D769F5D00EB727C /* FileOperationViewController.m in Sources */,
+				8CBC1FE91D769EA600EB727C /* RACFileManager.m in Sources */,
 				8C51D44D1C5B607800B8F3C6 /* RootTableViewController.m in Sources */,
 				8C4E4DF51C717C4D00A68576 /* SecondWDJViewController.m in Sources */,
 				8C4E4DF01C717BF300A68576 /* WandoujiaViewController.m in Sources */,

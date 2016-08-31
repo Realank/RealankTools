@@ -16,6 +16,7 @@
 
 #import "TouchIDViewController.h"
 #import "PolygonButtonViewController.h"
+#import "FileOperationViewController.h"
 
 NS_ENUM(NSInteger, TOOLS_ENTRY) {
     ChineseToPinyin = 0,
@@ -23,6 +24,7 @@ NS_ENUM(NSInteger, TOOLS_ENTRY) {
     SeguePracLineWandoujia,
     TouchID,
     PolygonBtn,
+    FileOperation,
     EntryMax
 };
 
@@ -81,7 +83,10 @@ NS_ENUM(NSInteger, TOOLS_ENTRY) {
             cell.textLabel.text = @"多边形按键";
         }
             break;
-            
+        case FileOperation:{
+            cell.textLabel.text = @"内容持久化";
+        }
+            break;
         default:
             break;
     }
@@ -129,6 +134,14 @@ NS_ENUM(NSInteger, TOOLS_ENTRY) {
             //多边形按键
             PolygonButtonViewController *vc = [[PolygonButtonViewController alloc]init];
             vc.title = @"多边形按键";
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+        case FileOperation:
+        {
+            //内容持久化
+            FileOperationViewController* vc = [[FileOperationViewController alloc]init];
+            vc.title = @"内容持久化";
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;
